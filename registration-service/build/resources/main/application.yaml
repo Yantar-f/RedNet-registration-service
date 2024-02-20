@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: REGISTRATION-SERVICE
+  cloud:
+    config:
+      fail-fast: true
+      name: discovery-client-config,api-token-config
+      uri: http://localhost:8888
+  config:
+    import: 'configserver:'
+  data:
+    redis:
+      port: 6379
+      host: localhost
