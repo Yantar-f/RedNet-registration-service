@@ -169,7 +169,7 @@ public class RegistrationControllerTest {
         mvc.perform(put("/registrations")
                         .contentType(APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(updatingRegistration)))
-                .andExpect(status().is2xxSuccessful());
+                .andExpect(status().isNoContent());
 
         verify(registrationService).updateRegistration(eq(updatingRegistration));
     }
@@ -251,7 +251,7 @@ public class RegistrationControllerTest {
 
         mvc.perform(delete("/registrations/by-id")
                         .param("id", id))
-                .andExpect(status().is2xxSuccessful());
+                .andExpect(status().isNoContent());
     }
 
     @Test

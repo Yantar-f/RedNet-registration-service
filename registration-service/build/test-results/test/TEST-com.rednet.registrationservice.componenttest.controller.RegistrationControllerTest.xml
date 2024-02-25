@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" tests="37" skipped="0" failures="0" errors="0" timestamp="2024-02-20T13:43:16" hostname="YANTARCOMPUTER" time="1.926">
+<testsuite name="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" tests="37" skipped="0" failures="0" errors="0" timestamp="2024-02-25T15:09:36" hostname="YANTARCOMPUTER" time="2.054">
   <properties/>
-  <testcase name="Getting_registration_by_id_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.544"/>
-  <testcase name="Getting_not_existing_registration_by_id_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.053"/>
-  <testcase name="Updating_not_existing_registration_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.169"/>
-  <testcase name="Creating_registration_with_invalid_content_type_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.028"/>
-  <testcase name="Creating_registration_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.131"/>
-  <testcase name="Deleting_registration_by_id_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.05"/>
-  <testcase name="Deleting_not_existing_registration_by_id_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.04"/>
-  <testcase name="Deleting_registration_without_id_param_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.03"/>
-  <testcase name="[1] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.095"/>
-  <testcase name="[2] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.014"/>
-  <testcase name="[3] fieldName=username" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.013"/>
-  <testcase name="[4] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.014"/>
-  <testcase name="[5] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.015"/>
-  <testcase name="[6] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.017"/>
-  <testcase name="[1] fieldName=ID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.031"/>
-  <testcase name="[2] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.015"/>
-  <testcase name="[3] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.012"/>
-  <testcase name="[4] fieldName=username" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.028"/>
-  <testcase name="[5] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.015"/>
-  <testcase name="[6] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.019"/>
-  <testcase name="[7] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.022"/>
-  <testcase name="Updating_registration_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.019"/>
-  <testcase name="[1] fieldName=ID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.028"/>
-  <testcase name="[2] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.012"/>
-  <testcase name="[3] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.021"/>
-  <testcase name="[4] fieldName=username" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.016"/>
-  <testcase name="[5] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.017"/>
-  <testcase name="[6] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.013"/>
-  <testcase name="[7] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.012"/>
-  <testcase name="[1] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.014"/>
-  <testcase name="[2] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.017"/>
+  <testcase name="Getting_registration_by_id_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.558"/>
+  <testcase name="Getting_not_existing_registration_by_id_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.06"/>
+  <testcase name="Updating_not_existing_registration_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.159"/>
+  <testcase name="Creating_registration_with_invalid_content_type_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.036"/>
+  <testcase name="Creating_registration_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.086"/>
+  <testcase name="Deleting_registration_by_id_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.035"/>
+  <testcase name="Deleting_not_existing_registration_by_id_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.014"/>
+  <testcase name="Deleting_registration_without_id_param_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.016"/>
+  <testcase name="[1] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.083"/>
+  <testcase name="[2] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.018"/>
   <testcase name="[3] fieldName=username" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.014"/>
-  <testcase name="[4] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.021"/>
-  <testcase name="[5] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.027"/>
-  <testcase name="[6] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.019"/>
-  <testcase name="Updating_registration_with_invalid_content_type_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.014"/>
-  <testcase name="Getting_registration_withoud_id_param_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.009"/>
-  <system-out><![CDATA[19:43:09.955 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest]: RegistrationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-19:43:10.162 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.rednet.registrationservice.RegistrationServiceApplication for test class com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest
-2024-02-20T19:43:12.157+06:00  INFO 7340 --- [    Test worker] c.r.r.c.c.RegistrationControllerTest     : Starting RegistrationControllerTest using Java 17.0.7 with PID 7340 (started by Yantar in F:\Projects\RedNet-workspace\RedNet-registration-service\registration-service)
-2024-02-20T19:43:12.161+06:00  INFO 7340 --- [    Test worker] c.r.r.c.c.RegistrationControllerTest     : No active profile set, falling back to 1 default profile: "default"
-2024-02-20T19:43:15.969+06:00  INFO 7340 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-02-20T19:43:15.969+06:00  INFO 7340 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-02-20T19:43:15.976+06:00  INFO 7340 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2024-02-20T19:43:16.035+06:00  INFO 7340 --- [    Test worker] c.r.r.c.c.RegistrationControllerTest     : Started RegistrationControllerTest in 5.719 seconds (process running for 7.696)
+  <testcase name="[4] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.055"/>
+  <testcase name="[5] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.052"/>
+  <testcase name="[6] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.021"/>
+  <testcase name="[1] fieldName=ID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.026"/>
+  <testcase name="[2] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.024"/>
+  <testcase name="[3] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.021"/>
+  <testcase name="[4] fieldName=username" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.032"/>
+  <testcase name="[5] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.015"/>
+  <testcase name="[6] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.015"/>
+  <testcase name="[7] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.021"/>
+  <testcase name="Updating_registration_is_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.023"/>
+  <testcase name="[1] fieldName=ID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.013"/>
+  <testcase name="[2] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.037"/>
+  <testcase name="[3] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.026"/>
+  <testcase name="[4] fieldName=username" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.018"/>
+  <testcase name="[5] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.041"/>
+  <testcase name="[6] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.013"/>
+  <testcase name="[7] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.034"/>
+  <testcase name="[1] fieldName=activationCode" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.016"/>
+  <testcase name="[2] fieldName=tokenID" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.013"/>
+  <testcase name="[3] fieldName=username" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.028"/>
+  <testcase name="[4] fieldName=email" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.045"/>
+  <testcase name="[5] fieldName=encodedPassword" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.011"/>
+  <testcase name="[6] fieldName=encodedSecretWord" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.017"/>
+  <testcase name="Updating_registration_with_invalid_content_type_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.023"/>
+  <testcase name="Getting_registration_withoud_id_param_is_not_successful()" classname="com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest" time="0.011"/>
+  <system-out><![CDATA[21:09:28.390 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest]: RegistrationControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:09:28.593 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.rednet.registrationservice.RegistrationServiceApplication for test class com.rednet.registrationservice.componenttest.controller.RegistrationControllerTest
+2024-02-25T21:09:30.741+06:00  INFO 13540 --- [    Test worker] c.r.r.c.c.RegistrationControllerTest     : Starting RegistrationControllerTest using Java 17.0.7 with PID 13540 (started by Yantar in F:\Projects\RedNet-workspace\RedNet-registration-service\registration-service)
+2024-02-25T21:09:30.746+06:00  INFO 13540 --- [    Test worker] c.r.r.c.c.RegistrationControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2024-02-25T21:09:36.855+06:00  INFO 13540 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-02-25T21:09:36.855+06:00  INFO 13540 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-02-25T21:09:36.865+06:00  INFO 13540 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-02-25T21:09:36.928+06:00  INFO 13540 --- [    Test worker] c.r.r.c.c.RegistrationControllerTest     : Started RegistrationControllerTest in 8.173 seconds (process running for 10.398)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
